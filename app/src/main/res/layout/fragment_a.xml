@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".AFragment">
+
+
+
+        <TextView
+            android:id="@+id/only"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginStart="165dp"
+            android:layout_marginTop="59dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="153dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="14dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            style="@style/W_Button"
+            android:text="-1"
+            android:id="@+id/on1"
+            android:layout_marginStart="38dp"
+            android:layout_marginEnd="120dp"
+            />
+        <Button
+            style="@style/B_Button"
+            android:text="+1"
+            android:id="@+id/on2"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/o"
+        android:text="open"
+        android:layout_marginBottom="32dp"
+        android:textSize="32dp"/>
+
+
+
+</FrameLayout>
